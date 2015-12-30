@@ -1,0 +1,8 @@
+[global]
+device = gpu
+floatX = float32
+openmp = True
+[blas]
+ldflags = -lopenblas
+#force_device=False
+
